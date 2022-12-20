@@ -1,0 +1,32 @@
+[
+    {
+        "type": "header",
+        "version": "5.2.0",
+        "comment": "Export to JSON plugin for PHPMyAdmin"
+    },
+    {
+        "type": "database",
+        "name": "golekkonco"
+    },
+    {
+        "type": "table",
+        "name": "user",
+        "database": "golekkonco",
+        "data": [
+            
+            {
+                "Nim": "2021310131",
+                "Nama": "Fathony Ahmad Fauzi",
+                "Jurusan": "Teknik Informatika",
+                "tahun_masuk": "2021"
+            },
+            {
+                "Nim": "2021310132",
+                "Nama": "Indah Resti",
+                "Jurusan": "Teknik Informatika",
+                "tahun_masuk": "2020"
+            }
+            
+        ]
+    }
+]

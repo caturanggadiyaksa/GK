@@ -1,0 +1,15 @@
+npm install -D tailwindcss
+
+
+npx tailwindcss init
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch
+
+
+<link href="/dist/output.css" rel="stylesheet">
